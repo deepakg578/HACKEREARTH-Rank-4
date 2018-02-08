@@ -1,1 +1,1 @@
-##HackerEarth Machine Learning challenge #2 competition
+HackerEarth Machine Learning challenge #2 competition
