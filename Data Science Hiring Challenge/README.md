@@ -14,3 +14,19 @@ In this challenge, you have to predict if a project will get successfully funded
 #### This code scored Rank 4 on the private leaderboard
 
 [Leaderboard](https://www.hackerearth.com/challenge/hiring/data-science-hiring-challenge/leaderboard/)
+
+## <span style='color:Blue'>Approach and Feature Engineering:</span>
+
+Projects were observed to have a clear trend with date and the most common words used in the name and the description of the project. Final submission is the xgboost model (bagged 8 times).
+
+Types of features:
+1. Date features
+2. Text features
+
+## <span style='color:Blue'>Tools used:</span>
+1. python - 3.6.1
+2. xgboost - 0.6
+3. scipy - 0.19.0
+4. sklearn - 0.18.1
+5. pandas - 0.20.1
+6. numpy - 1.12.1
